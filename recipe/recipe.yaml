@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.25.0"
+  version: "3.26.0"
 
 package:
   name: nxselector
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/nxselector/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: d10dc595922b38e636e102116b4a36c3e19d08c978cfad59302e8704ab16cd74
+  sha256: 464020c81574214947937b0d16c60920e3d89a178613f673ee5de159a060bc24
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - setuptools >=61
-    - pip 
+    - pip
     - wheel
     - qt-main
   run:
