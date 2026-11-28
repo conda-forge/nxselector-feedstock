@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.27.0"
+  version: "3.28.0"
 
 package:
   name: nxselector
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/nxselector/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 2ee36ae9795a5fc23359de3b75116d750689cd199c84eeffc5a6f93fbe4f4502
+  sha256: 6573717b557f225895ae2e3cecf3d3d694581eb96d5d778adf2343adedc2cf05
 
 build:
   noarch: python
